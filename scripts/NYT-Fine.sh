@@ -1,0 +1,11 @@
+python src/PIEClass.py --data_dir ./datasets/NYT-Fine/ \
+                       --train dataset.txt \
+                       --label_names classes.txt \
+                       --test dataset.txt \
+                       --test_labels labels.txt \
+                       --prompt topic \
+                       --thres_t 0.35 \
+                       --num_iter 3 \
+                       --imbalanced \
+                       --thres_p 0.9 \
+                       --gpu 0
